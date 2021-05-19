@@ -6,12 +6,36 @@
 
 **Say Hello to HTML Elements**
 
-# I didn't struggle with this module. I was familiar with most of it and instructions were clear
+**I didn't struggle with this module. I was familiar with most of it and instructions were clear**
 
 ## Introduction to Basic CSS
 
-# This was a good refresher and I didn't struggle with this module at all. Instructions were clean
+**This was a good refresher and I didn't struggle with this module at all. Instructions were clear**
 
 ## Applied Visual Design
 
-# This was a good module I didn't struggle with anything, but learned a few new tricks
+**This was a good module I didn't struggle with anything, but learned a few new tricks**
+
+## Applied Accessibility
+
+**My comments**
+
+## Responsive Web Design Principles
+
+**My comments**
+
+## Introduction to the CSS Flexbox Challenges
+
+**My comments**
+
+## Introduction to the CSS Grid Challenges
+
+**My comments**
+
+## Introduction to Javascript
+
+**My comments**
+
+## Introduction to the ES6 Challenges
+
+**My comments**
