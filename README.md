@@ -11,3 +11,7 @@
 ## Introduction to Basic CSS
 
 # This was a good refresher and I didn't struggle with this module at all. Instructions were clean
+
+## Applied Visual Design
+
+# This was a good module I didn't struggle with anything, but learned a few new tricks
