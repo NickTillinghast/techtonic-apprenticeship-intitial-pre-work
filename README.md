@@ -22,7 +22,7 @@
 
 ## Responsive Web Design Principles
 
-**My comments**
+**I had no issues in this module**
 
 ## Introduction to the CSS Flexbox Challenges
 
