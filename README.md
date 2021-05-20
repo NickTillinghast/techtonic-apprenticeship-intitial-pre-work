@@ -30,7 +30,7 @@
 
 ## Introduction to the CSS Grid Challenges
 
-**My comments**
+**This module was a little more challengin but instructions were clear**
 
 ## Introduction to Javascript
 
