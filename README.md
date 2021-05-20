@@ -18,7 +18,7 @@
 
 ## Applied Accessibility
 
-**My comments**
+**Some of this stuff I didn't know and it was great to learn for those who need it**
 
 ## Responsive Web Design Principles
 
