@@ -26,7 +26,7 @@
 
 ## Introduction to the CSS Flexbox Challenges
 
-**My comments**
+**Fun module I didn't have any issues**
 
 ## Introduction to the CSS Grid Challenges
 
