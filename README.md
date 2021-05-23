@@ -34,8 +34,8 @@
 
 ## Introduction to Javascript
 
-**This was challenging. Specificaly the end at around problems 84 and on.**
+**This was challenging. Specificaly the end at around problems 84 and on. The Records problem. I had trouble getting the values using the variable names correctly. Took some time but figured it out. Overall I feel I could use more practice and help with objects. Specifically when developing algorithums and accessing data**
 
 ## Introduction to the ES6 Challenges
 
-**My comment here**
+**Converting Celsius Fahrenheit problem was tricky for me. I had () around some of my numbers and had to look in MDN to find order of operations to get it to pass the test I found the hardest problems for me were ones that required more thinking about logic and then how to access the data properly.**
