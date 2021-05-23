@@ -30,12 +30,12 @@
 
 ## Introduction to the CSS Grid Challenges
 
-**This module was a little more challengin but instructions were clear**
+**This module was a little more challenging but instructions were clear**
 
 ## Introduction to Javascript
 
-**My comments**
+**This was challenging. Specificaly the end at around problems 84 and on.**
 
 ## Introduction to the ES6 Challenges
 
-**My comments**
+**My comment here**
