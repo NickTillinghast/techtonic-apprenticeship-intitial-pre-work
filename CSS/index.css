@@ -1,32 +1,61 @@
 body {
+  margin: 0px;
+  padding: 0px;
   background-color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-header {
-  background-color: #32289b;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  width: 100vw;
-  height: 5em;
-  color: #d1cbee;
-  font-size: 1em;
+ul {
+  list-style: none;
 }
-.top-nav {
-  display: flex;
-  flex-direction: row-reverse;
-}
-.top-nav a {
-  background-color: #ec336b;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 40px;
+a {
   text-decoration: none;
-  font-size: 17px;
 }
-.top-nav a:hover {
-  background-color: #ddd;
+#main {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #e7dfff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  letter-spacing: 2px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 10px 50px;
+  background-color: #7d67ec;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.541);
+}
+.menu {
+  display: flex;
+}
+.menu li a {
+  padding: 10px 15px;
+  color: #ffffff;
+  font-size: 12px;
+}
+.logo {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+}
+.contact {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  background-color: #ec336b;
   color: black;
+}
+.logo:hover {
+  color: #ec336b;
 }
 
 .title-box {
@@ -34,21 +63,31 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
-  height: 8em;
+  justify-content: space-around;
   color: #d1cbee;
   font-size: 1em;
+  margin-top: 70px;
 }
-.sub-title {
-  color: white;
+.about-main {
+  display: flex;
+  justify-content: space-between;
 }
+.about-img {
+  display: flex;
+}
+.about-main-content {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+
 footer {
   background-color: #32289b;
   width: 100vw;
   height: 50px;
 }
 img {
-  width: 25%;
+  width: 50%;
   margin: 20px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.685),
     0px 10px 20px rgba(0, 0, 0, 0.541);
