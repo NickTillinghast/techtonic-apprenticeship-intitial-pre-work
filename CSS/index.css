@@ -61,6 +61,7 @@ nav {
   background-color: #ec336b;
   color: black;
   transition: 1s;
+  border-radius: 1px;
 }
 
 .logo:hover {
@@ -141,6 +142,7 @@ header div {
 .about-main-content a:hover {
   color: #ec336b;
 }
+
 .amber-facts {
   display: flex;
   justify-content: space-evenly;
@@ -172,10 +174,6 @@ ol {
   line-height: 2em;
   background-color: #e8e7f1;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.541);
-}
-
-.fun-facts h3 {
-  padding: 15px;
 }
 
 .fun-fact-div {
