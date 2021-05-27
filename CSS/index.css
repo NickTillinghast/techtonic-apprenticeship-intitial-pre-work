@@ -4,18 +4,15 @@ body {
   background-color: #ffffff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 ul {
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
-#main {
-  width: 100%;
-  height: 95vh;
-  box-sizing: border-box;
-  background-color: #e7dfff;
-}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -31,24 +28,29 @@ nav {
   background-color: #080f58;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.541);
 }
+
 .menu {
   display: flex;
 }
+
 .menu li a {
   padding: 10px 15px;
   color: #ffffff;
   font-size: 12px;
 }
+
 .logo {
   color: #ffffff;
   font-size: 30px;
   font-weight: bold;
 }
+
 .contact {
   color: #ffffff;
   font-size: 15px;
   font-weight: bold;
 }
+
 .contact:hover {
   color: #ec336b;
 }
@@ -57,6 +59,7 @@ nav {
   background-color: #ec336b;
   color: black;
 }
+
 .logo:hover {
   color: #ec336b;
 }
@@ -66,19 +69,21 @@ nav {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-around;
   color: #ffffff;
   font-size: 1em;
   margin-top: 70px;
 }
+
 .about-main {
   display: flex;
   justify-content: space-between;
   background-color: #ffffff;
 }
+
 .about-img {
   display: flex;
 }
+
 .about-main-content {
   display: flex;
   align-items: center;
@@ -96,29 +101,58 @@ nav {
   background-color: #d1cbee;
   line-height: 1.6;
 }
+
 .about-main-content a {
   color: black;
 }
+
 .about-main-content a:hover {
   color: #ec336b;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .about-section {
   width: 100vw;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.541);
 }
+
 .fun-facts {
+  height: 35vh;
+  border: solid;
+  border-width: 1.5px;
+  border-color: #ec336b;
+  border-radius: 20px;
   margin-left: 20px;
+  line-height: 2em;
+  margin-top: 10px;
+  background-color: #e8e7f1;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.541);
 }
+
+.fun-facts h3 {
+  padding: 15px;
+}
+
 .fun-fact-div {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   width: 100vw;
+  margin-top: 25px;
 }
+
 .fun-fact-div img {
   width: 300px;
 }
+
 .amber-facts {
   display: flex;
   justify-content: space-evenly;
@@ -128,7 +162,7 @@ nav {
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
 }
 
-.footer {
+footer {
   height: 50px;
   display: flex;
   justify-content: space-evenly;
@@ -137,27 +171,31 @@ nav {
   letter-spacing: 2px;
   position: fixed;
   width: 100%;
-  top: 93%;
+  bottom: 0;
   box-sizing: border-box;
-  padding: 10px 50px;
   background-color: #080f58;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
 }
-.footer h4 {
+
+footer h4 {
   color: #ffffff;
 }
+
 img {
-  width: 50%;
+  height: 25vh;
   margin: 20px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.685),
     0px 10px 20px rgba(0, 0, 0, 0.541);
 }
+
 .article-right {
   width: 40vw;
 }
+
 .article-left {
   width: 20vw;
 }
+
 .adjectives-main {
   display: flex;
   flex-direction: column;
@@ -165,7 +203,35 @@ img {
   letter-spacing: 8px;
   font-weight: bolder;
 }
-.long {
-  height: 100vh;
-  background-color: aqua;
+
+summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 70vh;
+}
+
+summary a {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: black;
+}
+summary a:hover {
+  color: #ec336b;
+}
+
+summary section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55vw;
+  line-height: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #e8e7f1;
+  margin-top: 15px;
+  height: 55vh;
+}
+summary section p,
+h3 {
+  padding: 20px;
 }
