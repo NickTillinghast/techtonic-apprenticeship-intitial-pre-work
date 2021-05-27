@@ -27,6 +27,7 @@ nav {
   padding: 10px 50px;
   background-color: #080f58;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.541);
+  z-index: 100;
 }
 
 .menu {
@@ -53,31 +54,61 @@ nav {
 
 .contact:hover {
   color: #ec336b;
+  transition: 1s;
 }
 
 .menu a:hover {
   background-color: #ec336b;
   color: black;
+  transition: 1s;
 }
 
 .logo:hover {
   color: #ec336b;
+  transition: 1s;
 }
 
-.title {
-  background-color: #7d67ec;
+header {
+  position: relative;
+  height: 150px;
+  background-image: linear-gradient(#7d67ec, #6452be);
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: space-evenly;
   color: #ffffff;
   font-size: 1em;
   margin-top: 70px;
 }
 
+header h1 {
+  color: white;
+  margin-left: -170px;
+}
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 6vh;
+}
+header div {
+  display: flex;
+  flex-direction: row;
+}
+.title-talents {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0px;
+}
+.title-talents {
+  margin: 0px 10px 10px 50px;
+}
+
 .about-main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #ffffff;
+  padding: 20px;
 }
 
 .about-img {
@@ -109,22 +140,28 @@ nav {
 .about-main-content a:hover {
   color: #ec336b;
 }
+.amber-facts {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 300px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+}
 
 ol {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: space-between;
   font-weight: bold;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.about-section {
-  width: 100vw;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.541);
-}
-
 .fun-facts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 35vh;
   border: solid;
   border-width: 1.5px;
@@ -134,6 +171,7 @@ ol {
   margin-top: 10px;
   background-color: #e8e7f1;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.541);
+  width: 55vw;
 }
 
 .fun-facts h3 {
@@ -150,15 +188,6 @@ ol {
 
 .fun-fact-div img {
   width: 300px;
-}
-
-.amber-facts {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: #ffffff;
-  width: 100vw;
-  height: 300px;
-  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
 }
 
 footer {
@@ -201,6 +230,7 @@ img {
   justify-content: space-between;
   letter-spacing: 8px;
   font-weight: bolder;
+  margin-right: 15px;
 }
 
 summary {
@@ -227,13 +257,27 @@ summary section {
   line-height: 2rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: #e8e7f1;
-  margin-top: 15px;
   height: 55vh;
   border-radius: 6px;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
-  margin-top: 30px;
+  margin: 30px 0px 15px 0px;
 }
 summary section p,
 h3 {
   padding: 20px;
+  margin: 0px 20px 0px 20px;
+}
+section hr {
+  width: 80%;
+  border: solid;
+  border-width: 1px;
+  border-image: linear-gradient(
+      to left,
+      rgb(161, 161, 161) 1%,
+      grey 20%,
+      rgb(63, 63, 63) 50%,
+      grey 80%,
+      rgb(156, 156, 156) 100%
+    )
+    0 0 100% 0/0 0 5px 0 stretch;
 }
