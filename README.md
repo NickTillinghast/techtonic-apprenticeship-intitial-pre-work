@@ -46,6 +46,8 @@
 
 **remembering some the css behaviors I also needed to check on w3schools**
 
-**I had to look into stack overflow to find out how to get my navbar to override the svg postition in css and found z-index 100 would do that**
+**I had to look into stack overflow to find out how to get my navbar to override the svg postition in css and found z-index 100 would do that so I added that to my css**
 
-**I used a source called css tricks to help me develop the diagonal line for my header**
+**I used css tricks to help me develop the diagonal line for my header i made my own adjustments to fit my page**
+
+**I looked into W3schools to verify a few things such as box-shadow and refreshers on hover and transitions.**

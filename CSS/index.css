@@ -70,14 +70,15 @@ nav {
 
 header {
   position: relative;
-  height: 150px;
+  height: 180px;
   background-image: linear-gradient(#7d67ec, #6452be);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   color: #ffffff;
-  font-size: 1em;
+  font-size: 1.1em;
   margin-top: 70px;
+  font-family: "Poppins", sans-serif;
 }
 
 header h1 {
@@ -124,8 +125,8 @@ header div {
   width: 90vw;
   border: solid;
   border-color: #ec336b;
-  border-width: 2px;
-  border-radius: 20px;
+  border-width: 1px;
+  border-radius: 15px;
   margin: 20px 40px 10px 0px;
   padding: 20px;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.541);
@@ -233,6 +234,8 @@ img {
   margin-right: 15px;
 }
 
+/*  Summary section at bottom of page */
+
 summary {
   display: flex;
   flex-direction: row;
@@ -262,11 +265,17 @@ summary section {
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
   margin: 30px 0px 15px 0px;
 }
+
+/* minor margin and spacing for summary section*/
+
 summary section p,
 h3 {
   padding: 20px;
   margin: 0px 20px 0px 20px;
 }
+
+/* bottom sections line for visual appeal to break up paragraph using a hr tag */
+
 section hr {
   width: 80%;
   border: solid;
