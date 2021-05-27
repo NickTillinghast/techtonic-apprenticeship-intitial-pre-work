@@ -163,16 +163,15 @@ ol {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 55vw;
   height: 35vh;
   border: solid;
   border-width: 1.5px;
   border-color: #bbbbbb;
-  margin-left: 20px;
+  margin: 10px 0px 0px 20px;
   line-height: 2em;
-  margin-top: 10px;
   background-color: #e8e7f1;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.541);
-  width: 55vw;
 }
 
 .fun-facts h3 {
@@ -270,7 +269,6 @@ summary section {
 
 summary section p,
 h3 {
-  padding: 20px;
   margin: 0px 20px 0px 20px;
 }
 
