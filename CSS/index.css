@@ -4,7 +4,7 @@ body {
   background-color: #ffffff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
+/*  nav-bar list */
 ul {
   list-style: none;
 }
@@ -12,7 +12,7 @@ ul {
 a {
   text-decoration: none;
 }
-
+/* nav-bar fixed and use of flex-box */
 nav {
   display: flex;
   justify-content: space-between;
@@ -38,7 +38,7 @@ nav {
   color: #ffffff;
   font-size: 12px;
 }
-
+/* this is where a potential logo would go */
 .logo {
   color: #ffffff;
   font-size: 30px;
@@ -64,7 +64,7 @@ nav {
   color: #ec336b;
 }
 
-.title-box {
+.title {
   background-color: #7d67ec;
   display: flex;
   align-items: center;
@@ -128,8 +128,7 @@ ol {
   height: 35vh;
   border: solid;
   border-width: 1.5px;
-  border-color: #ec336b;
-  border-radius: 20px;
+  border-color: #bbbbbb;
   margin-left: 20px;
   line-height: 2em;
   margin-top: 10px;
@@ -230,6 +229,9 @@ summary section {
   background-color: #e8e7f1;
   margin-top: 15px;
   height: 55vh;
+  border-radius: 6px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
 }
 summary section p,
 h3 {

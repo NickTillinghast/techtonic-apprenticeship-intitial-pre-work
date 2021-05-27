@@ -39,3 +39,9 @@
 ## Introduction to the ES6 Challenges
 
 **Converting Celsius Fahrenheit problem was tricky for me. I had () around some of my numbers and had to look in MDN to find order of operations to get it to pass the test I found the hardest problems for me were ones that required more thinking about logic and then how to access the data properly.**
+
+## Mock-up
+
+**With this web page I needed to check the W3schools site a few times to see how to handle the ordered list and I also needed to check out the mdn on accessibility**
+
+**remembering some the css behaviors I also needed to check on w3schools**
